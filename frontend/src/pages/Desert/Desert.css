@@ -1,0 +1,65 @@
+.Deserts {
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .Deserts h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .desert {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .desert>div {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .desert>div:hover {
+    transform: translateY(-10px);
+  }
+  
+  .desert img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .desert p {
+    margin: 10px 0;
+  }
+  
+  .price {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .rating {
+    font-size: 1rem;
+    color: #f39c12;
+  }
+  
+  .add-to-cart {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #c0392b;
+  }
